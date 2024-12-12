@@ -2,7 +2,6 @@
 
 ## 🌐 Application Link
 
-You can visit the application [here](https://inspiring-bublanina-c8db77.netlify.app/).
 
 ## 📜 Description
 
