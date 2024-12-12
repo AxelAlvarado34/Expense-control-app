@@ -1,5 +1,9 @@
 # 💸 Expense Control Application
 
+## 🌐 Application Link
+
+You can visit the application [here](https://inspiring-bublanina-c8db77.netlify.app/).
+
 ## 📜 Description
 
 This is an expense tracker application developed with React and Vite. It is written in TypeScript and uses Context, Reducer, and Custom Hooks for state management. The interface is designed with TailwindCSS, and pure CSS is also used for some specific styles.
@@ -24,11 +28,3 @@ This is an expense tracker application developed with React and Vite. It is writ
 - **Pure CSS**
 - **react-circular-progressbar**
 - **tostify**
-
-## 🌐 Application Link
-
-You can visit the application [here](https://inspiring-bublanina-c8db77.netlify.app/).
-
----
-
-I hope you like this README with emojis. If you need anything else, let me know! 🚀
