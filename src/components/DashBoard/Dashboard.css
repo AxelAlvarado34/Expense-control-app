@@ -140,7 +140,7 @@
 @media screen and (max-width: 900px) {
 
     .list-content {
-        margin-top: 200px;
+        margin-top: 0px;
         padding: 0 35px;
     }
 }
@@ -172,16 +172,19 @@
     }
 
     .expenses-content {
+        display: flex;
         flex-direction: column;
         width: 100%;
+        height: 100%;
         margin-top: 0;
 
         overflow-y: hidden;
 
         .block-1 {
-            margin-top: 100px;
             flex-direction: column;
             gap: 50px;
+            margin-bottom: 0px;
+            height: 50%;
 
             .resume-content {
                 width: 100%;
@@ -203,13 +206,7 @@
     }
 
     .list-content {
-        margin-top: 150px;
-        padding: 0 50px;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .list-content{
-        margin-top: 200px;
+        margin-top: -50px;
+        padding: 0 40px;
     }
 }
