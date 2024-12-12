@@ -1,18 +1,18 @@
-# 💸 Aplicación de Control de Gastos
+# 💸 Expense Control Application
 
-## 📜 Descripción
+## 📜 Description
 
-Esta es una aplicación de control de gastos desarrollada con React y Vite. Está escrita en TypeScript y utiliza Context, Reducer y Custom Hooks para la gestión del estado. La interfaz está diseñada con TailwindCSS, y también se ha utilizado CSS puro para algunos estilos específicos.
+This is an expense tracker application developed with React and Vite. It is written in TypeScript and uses Context, Reducer, and Custom Hooks for state management. The interface is designed with TailwindCSS, and pure CSS is also used for some specific styles.
 
-## 🛠️ Funcionalidades
+## 🛠️ Features
 
-- 🤑 Gestión de ingresos y gastos
-- 📊 Visualización gráfica de los datos
-  - Utilizando la librería `react-circular-progressbar`
-- 🔔 Notificaciones
-  - Implementadas con `tostify`
+- 🤑 Income and expense management
+- 📊 Data visualization
+  - Using the `react-circular-progressbar` library
+- 🔔 Notifications
+  - Implemented with `tostify`
 
-## 🧰 Tecnologías Utilizadas
+## 🧰 Technologies Used
 
 - **React**
 - **Vite**
@@ -21,14 +21,14 @@ Esta es una aplicación de control de gastos desarrollada con React y Vite. Est�
 - **Reducer**
 - **Custom Hooks**
 - **TailwindCSS**
-- **CSS puro**
+- **Pure CSS**
 - **react-circular-progressbar**
 - **tostify**
 
-## 🌐 Enlace a la Aplicación
+## 🌐 Application Link
 
-Puedes visitar la aplicación [aquí](https://inspiring-bublanina-c8db77.netlify.app/).
+You can visit the application [here](https://inspiring-bublanina-c8db77.netlify.app/).
 
 ---
 
-Espero que te guste este README con emojis. Si necesitas algo más, ¡házmelo saber! 🚀
+I hope you like this README with emojis. If you need anything else, let me know! 🚀
