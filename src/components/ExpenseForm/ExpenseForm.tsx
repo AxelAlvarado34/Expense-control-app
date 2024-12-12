@@ -13,12 +13,12 @@ export const ExpenseForm = () => {
 
     const initialExpense = {
         expenseName: '',
-        amount: 0,
+        amount: 0.0,
         category: '',
         date: ''
     }
 
-    const[previewAmount, setPreviewAmount] = useState(0);
+    const[previewAmount, setPreviewAmount] = useState(0.0);
 
     const expensetMoney = useMemo(() => {
         return state.expenses.reduce((total, item) => total + item.amount, 0);
@@ -32,7 +32,7 @@ export const ExpenseForm = () => {
         const { name, value } = e.target;
         setExpense({
             ...expense,
-            [name]: name === 'amount' ? +value : value
+            [name]: name === 'amount' ? parseFloat(value) : value
         })
     }
 
@@ -44,7 +44,7 @@ export const ExpenseForm = () => {
             return
         }
 
-        if ((expense.amount - previewAmount) > spentTotalMoney) {
+        if ((expense.amount - previewAmount) > spentTotalMoney || expense.amount <= 0) {
             notifyErrorAmount();
             return;
         }
@@ -70,7 +70,7 @@ export const ExpenseForm = () => {
             dispatch({ type: 'add-expense', payload: { expense: transformExpense } })
         }
 
-        setPreviewAmount(0);
+        setPreviewAmount(0.0);
         setExpense(initialExpense);
     }
 
@@ -114,7 +114,7 @@ export const ExpenseForm = () => {
                         <label htmlFor="amount" className='form-expense-label'>Amount:</label>
                         <input
                             type="number"
-                            min={0}
+                            step="0.01"
                             id='amount'
                             name='amount'
                             className='form-expense-input'
