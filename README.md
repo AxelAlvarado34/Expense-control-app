@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# 💸 Aplicación de Control de Gastos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📜 Descripción
 
-Currently, two official plugins are available:
+Esta es una aplicación de control de gastos desarrollada con React y Vite. Está escrita en TypeScript y utiliza Context, Reducer y Custom Hooks para la gestión del estado. La interfaz está diseñada con TailwindCSS, y también se ha utilizado CSS puro para algunos estilos específicos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🤑 Gestión de ingresos y gastos
+- 📊 Visualización gráfica de los datos
+  - Utilizando la librería `react-circular-progressbar`
+- 🔔 Notificaciones
+  - Implementadas con `tostify`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧰 Tecnologías Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- **React**
+- **Vite**
+- **TypeScript**
+- **Context**
+- **Reducer**
+- **Custom Hooks**
+- **TailwindCSS**
+- **CSS puro**
+- **react-circular-progressbar**
+- **tostify**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🌐 Enlace a la Aplicación
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Puedes visitar la aplicación [aquí](https://inspiring-bublanina-c8db77.netlify.app/).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Espero que te guste este README con emojis. Si necesitas algo más, ¡házmelo saber! 🚀
